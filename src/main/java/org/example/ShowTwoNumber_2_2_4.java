@@ -1,7 +1,7 @@
 package org.example;
 import javax.swing.JOptionPane;
 
-public class ShowTwoNumber {
+public class ShowTwoNumber_2_2_4 {
     public static void main(String[] args) {
         String str1, str2;
         str1 = JOptionPane.showInputDialog(null, "Enter the first number: ", JOptionPane.INFORMATION_MESSAGE);

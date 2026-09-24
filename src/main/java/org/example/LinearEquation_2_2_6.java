@@ -2,18 +2,18 @@ package org.example;
 
 import java.util.Scanner;
 
-public class LinearEquation {
+public class LinearEquation_2_2_6 {
 
     public static void solveLinearEquation(double coef_a, double coef_b) {
         if (coef_a == 0.0) {
             if (coef_b == 0.0) {
-                System.out.println("The equation has infinitely many solutions.");
+                System.out.println("Infinite solutions.");
             } else {
-                System.out.println("The equation has no solution.");
+                System.out.println("No solution.");
             }
         } else {
             double sol_x = -coef_b / coef_a;
-            System.out.println("The equation has a unique solution: x = " + sol_x);
+            System.out.println("Unique solution: x = " + sol_x);
         }
     }
 

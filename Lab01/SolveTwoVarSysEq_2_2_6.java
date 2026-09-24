@@ -25,7 +25,7 @@ public class SolveTwoVarSysEq_2_2_6 {
         return new Pair(sol_x, sol_y);
     }
 
-    public static void main(String[] args) {
+    static void main() {
         Pair first_eq = new Pair();
         Pair second_eq = new Pair();
         double first_res;
